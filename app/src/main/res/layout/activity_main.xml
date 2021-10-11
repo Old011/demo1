@@ -6,13 +6,160 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,One"
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   One,Two   "
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,Three"
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One,Four"
+            android:textAllCaps="false"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="-16dp">
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Two,One"
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Two,Two   "
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Two,Three"
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Two,Four"
+            android:textAllCaps="false"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="-16dp">
+
+        <Button
+            android:id="@+id/btn21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Three,One"
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:id="@+id/btn22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Three,Two"
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:id="@+id/btn23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Three,Three"
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:id="@+id/btn24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Three,Four"
+            android:textAllCaps="false"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="0dp">
+
+        <Button
+            android:id="@+id/btn31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Four,One"
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:id="@+id/btn32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Four,Two   "
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:id="@+id/btn33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Four,Three"
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:id="@+id/btn34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fne,Four"
+            android:textAllCaps="false"></Button>
+
+    </LinearLayout>
+</LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
